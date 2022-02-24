@@ -40,5 +40,16 @@ describe('number of occurrences', () => {
         // Then
         expect(actual).toBe(expected);
     })
+
+    test('Will throw an error when input not a number', () => {
+        // Given
+        const numbers = [];
+        const searchNumber = 'A';
+
+        // When
+        // Then
+        expect(() => numberOfOccurrences(numbers, searchNumber))
+            .toThrow(`${searchNumber} is not a number`);
+    })
 })
 
