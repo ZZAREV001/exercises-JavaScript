@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1645715746206" clover="3.2.0">
-  <project timestamp="1645715746206" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="16" coveredelements="16" complexity="0" loc="9" ncloc="9" packages="1" files="2" classes="2"/>
-    <file name="filter-person.js" path="/Users/GoldenEagle/Desktop/Divers/Dossier-cours-IT/Cours-JavaScript/Cours-JavaScript-Jest-software-testing/Exercise-JavaScript-testing/src/filter-person.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+<coverage generated="1645976782403" clover="3.2.0">
+  <project timestamp="1645976782403" name="All files">
+    <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4" elements="13" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="fetch-data.js" path="/Users/GoldenEagle/Desktop/Divers/Dossier-cours-IT/Cours-JavaScript/Cours-JavaScript-Jest-software-testing/Exercise-JavaScript-testing/src/fetch-data.js">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="10" type="stmt"/>
-    </file>
-    <file name="number-of-occurences.js" path="/Users/GoldenEagle/Desktop/Divers/Dossier-cours-IT/Cours-JavaScript/Cours-JavaScript-Jest-software-testing/Exercise-JavaScript-testing/src/number-of-occurences.js">
-      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
-      <line num="8" count="16" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="3" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
