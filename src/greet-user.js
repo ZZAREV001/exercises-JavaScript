@@ -6,4 +6,15 @@ const greetUser = (username, callback) => {
     }
 }
 
-export default greetUser;
+const greetUser2 = (username, callback) => {
+    if (callback) {
+        return callback(username);
+    } else {
+        return `Hello ${username}`;
+    }
+}
+
+export {
+    greetUser,
+    greetUser2
+}

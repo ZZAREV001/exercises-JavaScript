@@ -25,4 +25,15 @@ describe('Fetch data', () => {
         }
         // await expect(fetchData()).rejects.toMatch('oops error');
     })
+
+    test('mocking promises', () => {
+        const myFunc = jest.fn();
+        myFunc.mockResolvedValue(["hello", "world"]);
+
+        expect(myFunc()).resolves.toEqual(["hello", "world"]);
+    })
+
+    it('should check addition', () => {
+
+    })
 })
